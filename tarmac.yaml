@@ -1,0 +1,19 @@
+---
+clustername: caasp1
+apivip: somevip.domain.com
+skubabin: /usr/sbin/skuba
+user: sles
+masters:
+  - master1.host.com
+#  - master2.host.com
+#  - master3.host.com
+workers:
+  - worker1.host.com
+  - worker2.host.com
+  - worker3.host.com
+  - worker4.host.com
+  - worker5.host.com
+skuba_extra_args:
+  global: '-v42'
+  cluster:
+  node:
