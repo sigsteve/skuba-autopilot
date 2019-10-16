@@ -3,6 +3,7 @@ clustername: caasp1
 apivip: somevip.domain.com
 skubabin: /usr/sbin/skuba
 user: sles
+domain: default.com
 masters:
   - master1.host.com
 #  - master2.host.com
